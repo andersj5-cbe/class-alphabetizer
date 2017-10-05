@@ -1,0 +1,24 @@
+{
+  "name": "class-alphabetizer",
+  "version": "1.0.0",
+  "description": "a tool for organizing members of AD groups by last name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersj5-cbe/class-alphabetizer.git"
+  },
+  "keywords": [
+    "class",
+    "alphabetizer",
+    "AD"
+  ],
+  "author": "John Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersj5-cbe/class-alphabetizer/issues"
+  },
+  "homepage": "https://github.com/andersj5-cbe/class-alphabetizer#readme"
+}
