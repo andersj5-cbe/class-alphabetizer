@@ -1,11 +1,12 @@
 /**
  * sorts AD group members by last name
- * @param {*} classList 
+ * @param {Array} classList list of objects representing AD user objects.
  */
+
 function alphabetize(classList){
     classList.sort(function (a,b){
-        let nameA = a.lastName.toUpperCase();
-        let nameB = b.lastName.toUpperCase();
+        let nameA = a.sn.toUpperCase();
+        let nameB = b.sn.toUpperCase();
 
         if(nameA > nameB){
             return 1;
