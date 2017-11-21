@@ -3,7 +3,7 @@
  * @param {Array} classList list of objects representing AD user objects.
  */
 
-function alphabetize(classList){
+function alphabetize(classList,cb){
     classList.sort(function (a,b){
         let nameA = a.sn.toUpperCase();
         let nameB = b.sn.toUpperCase();
@@ -17,7 +17,7 @@ function alphabetize(classList){
         return 0;
     });
 
-    return classList;
+    cb(null,classList);
 }
 
 module.exports = alphabetize;
